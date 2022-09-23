@@ -19,7 +19,6 @@ This project is the first milestone in the process of creating portfolio website
 - Add a .gitignore file.
 - Set up a linter for HTML and CSS and make sure that any files that are not relevant are ignored by git.
 - Add descriptive README file.
-
 - **The 2 sections that are need to be build for this project are:**
   - The toolbar (or header)
   - The headline section (right after the header)
@@ -27,7 +26,6 @@ This project is the first milestone in the process of creating portfolio website
 	- No need to implement any functionality that requires JavaScript, like opening the menu or creating dropdowns.
 	- Stick to the design as much as possible (e.g. font, colors, images, text, margins) using the templates in Figma.
 	- Implement the button interactions (enable, hover, etc.).
-	
 - Open a pull request.
 
 ## Authors
