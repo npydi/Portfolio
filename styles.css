@@ -13,6 +13,7 @@ body {
   flex-direction: column;
   align-items: center;
   height: 100vh;
+  font-family: 'Poppins', sans-serif;
 }
 
 header,
@@ -93,3 +94,141 @@ header {
   gap: 1em;
   list-style: none;
 }
+
+#proj1 {
+  background-image: url(images/proj.png);
+}
+
+#proj2 {
+  background-image: url(images/proj2.png);
+}
+
+#proj3 {
+  background-image: url(images/proj3.png);
+}
+
+#proj4 {
+  background-image: url(images/proj4.png);
+}
+
+.works {
+   background-color: #E5E5E5;
+   width: 100%;
+   display: grid;   
+}
+
+.project-container {
+    padding: 2%;
+    background-color: #fff;
+    border-radius: 16px;
+    margin: 6em 0;
+    border: 1px solid #DFE1E6;
+    width: 90%;
+}
+
+.proj-img {
+  height: 5em;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.project-title {
+    width: 100%; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 44px;    
+    color: #172b4d;
+
+    width: 295px;
+height: 36px;
+font-style: normal;
+}
+
+.author-details {
+    display: flex;
+    flex-direction: row;
+    
+    gap: 2%;
+    width: 85%;
+}
+
+.auth-name {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+ color: #344563;
+ list-style: none;
+
+ width: 55px;
+height: 16px;
+font-style: normal;
+
+}
+
+.auth-role,
+.year {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  margin-left: 7%;  
+}
+
+.proj-desc {
+  width: 295px;
+  height: 76px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.tech-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #6070FF;
+}
+
+.btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;  
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #396DF2;
+}
+
+.languages { 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.lang-item {    
+  background: #F7F7F9;
+  border-radius: 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+}
+
+.tech-img {
+  border-radius: 50%;
+}
+
+
+
+
+
+  
