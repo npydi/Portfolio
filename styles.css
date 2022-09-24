@@ -139,12 +139,14 @@ header {
   margin: 2.8em 0;
   border: 1px solid #dfe1e6;
   width: 90%;
+  display: flex;
+  flex-direction: column;
 }
 
 .proj-img {
-  height: 15em;
+  height: 14em;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .project-title {
@@ -155,6 +157,11 @@ header {
   line-height: 44px;
   color: #172b4d;
   margin: 0.5em 0;
+}
+
+.project-details {
+  display: flex;
+  flex-direction: column;
 }
 
 .author-details {
@@ -220,6 +227,22 @@ header {
   border-radius: 8px;
   padding: 0.6em 0.6em;
   margin: 0.5em 1em 1em 0;
+  background-color: #fff;
+  width: 52%;
+}
+
+.btn:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.btn:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+
+.btn:disabled {
+  color: #5e6c84;
 }
 
 .tech-title {
@@ -236,6 +259,7 @@ header {
   align-items: flex-start;
   width: 85%;
   padding-bottom: 10%;
+  list-style: none;
 }
 
 .lang-item {
@@ -252,6 +276,10 @@ header {
   flex-direction: row;
   align-items: center;
   gap: 1em;
+}
+
+.lang {
+  width: 100%;
 }
 
 .lang-ul {
@@ -272,10 +300,6 @@ header {
   gap: 3%;
   list-style: none;
   margin: 1em 0;
-}
-
-.resume {
-  width: 52%;
 }
 
 .about-container {
