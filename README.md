@@ -31,15 +31,15 @@ This project is the first milestone in the process of creating portfolio website
 ## Authors
 👤 **Nia Pydi**
 
-- GitHub: [@githubhandle](https://github.com/npydi)
-- Twitter: [@twitterhandle](https://twitter.com/NiaPydi)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/nia-npydi7234)
+- GitHub: [@npydi](https://github.com/npydi)
+- Twitter: [@NiaPydi](https://twitter.com/NiaPydi)
+- LinkedIn: [@NiaPydi](https://linkedin.com/in/nia-npydi7234)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/npydi/Portfolio/issues).
 
 ## Show your support
 
