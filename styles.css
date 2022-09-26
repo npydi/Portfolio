@@ -204,6 +204,18 @@ header {
   margin: 1em 0;
 }
 
+.technologies {
+  /*display: flex;
+  flex-direction: row;*/
+  gap: 3%;
+  list-style: none;
+  margin: 2em 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+}
+
 .tech-item {
   font-style: normal;
   font-weight: 500;
@@ -214,6 +226,8 @@ header {
   background-color: #ebebff;
   padding: 0.5em 1em;
   border-radius: 8px;
+  display: inline-block;
+  margin: 1%;
 }
 
 .btn {
@@ -292,14 +306,6 @@ header {
 
 .tech-img {
   border-radius: 50%;
-}
-
-.technologies {
-  display: flex;
-  flex-direction: row;
-  gap: 3%;
-  list-style: none;
-  margin: 1em 0;
 }
 
 .about-container {
